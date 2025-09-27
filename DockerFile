@@ -12,5 +12,6 @@ RUN python train_model.py
 
 EXPOSE 10000
 
-CMD ["gunicorn", "2_api_server:app", "--bind", "0.0.0.0:10000"]
+CMD ["gunicorn", "app:app", "--bind", "0.0.0.0:10000"]
+
 
