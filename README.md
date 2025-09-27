@@ -8,6 +8,8 @@ The entire workflow is automated within a Docker container—from data preparati
 # 🎯 Model Performance
 
 The final model achieves a Mean Absolute Error (MAE) of approximately 0.26°C, indicating a very high level of accuracy. The plot below shows the model's predictions (orange) closely tracking the actual temperatures (blue) on the unseen test dataset.
+<Figure size 1500x700 with 1 Axes><img width="1233" height="646" alt="image" src="https://github.com/user-attachments/assets/9cf74d83-83ee-4fe8-8423-c2c57a37833e" />
+
 
 # ✨ Key Features
 
